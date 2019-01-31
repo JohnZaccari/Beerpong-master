@@ -1,0 +1,19 @@
+body {
+  background-color: grey;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+
+.header {
+  margin-top: -30px;
+}
+
+.header img {
+  height: 250px;
+  width: 600px;
+}
