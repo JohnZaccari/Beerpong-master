@@ -1,8 +1,14 @@
 body {
-  background: url(background.jpg);
+  /* background: url(background.jpg); */
+  /*
+  https://coolors.co/141115-96adc8-e71d36-eeb4b3-fffffc possible color scheme 
+  Added google fonts
+  */
+  background-color: aqua;
   background-repeat: no-repeat;
   background-position: 0% 0%;
   background-size: 100% 100%;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -46,4 +52,21 @@ li a {
 li a:hover {
   color: white;
   background-color: rgb(255, 0, 0);
+}
+
+/*
+added flex grid for gallery images
+*/
+.pics img {
+  max-width: 400px;
+  max-height: 400px;
+  margin: 20px;
+}
+
+.flex-grid{
+  display: flex;
+}
+
+.flex-grid .col {
+  flex: 1;
 }
