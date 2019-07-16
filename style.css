@@ -1,10 +1,10 @@
 body {
   /* background: url(background.jpg); */
   /*
-  https://coolors.co/141115-96adc8-e71d36-eeb4b3-fffffc possible color scheme 
+  https://coolors.co/141115-96adc8-e71d36-eeb4b3-fffffc possible color scheme
   Added google fonts
   */
-  background-color: aqua;
+  background-color: rgb(235, 241, 250);
   background-repeat: no-repeat;
   background-position: 0% 0%;
   background-size: 100% 100%;
@@ -70,3 +70,69 @@ added flex grid for gallery images
 .flex-grid .col {
   flex: 1;
 }
+
+
+/*
+added HTML Bracket
+*/
+#tournament   {
+  display:flex;
+  flex-direction:row;
+  /**/
+  font-family:sans-serif;
+  font-size:small;
+  padding:10px;
+  line-height:1.4em;
+  /**/
+}
+
+.round  {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  width:200px;
+  list-style:none;
+  padding:0;
+}
+  .round .spacer{ flex-grow:1; }
+  .round .spacer:first-child,
+  .round .spacer:last-child{ flex-grow:.5; }
+
+  .round .game-spacer{
+    flex-grow:1;
+  }
+
+/*
+ *  General Styles
+*/
+/*
+body{
+  font-family:sans-serif;
+  font-size:small;
+  padding:10px;
+  line-height:1.4em;
+}
+*/
+
+li.game {
+  padding-left:20px;
+}
+
+  li.game.winner  {
+    font-weight:bold;
+  }
+  li.game span  {
+    float:right;
+    margin-right:5px;
+  }
+
+  li.game-top { border-bottom:1px solid #aaa; }
+
+  li.game-spacer  {
+    border-right:1px solid #aaa;
+    min-height:40px;
+  }
+
+  li.game-bottom  {
+    border-top:1px solid #aaa;
+  }
