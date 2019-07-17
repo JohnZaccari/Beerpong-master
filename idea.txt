@@ -5,3 +5,13 @@ IDEAS BITCH
 
 2) Add a dropdown to the navbar for "Gallery" so people can
    select which year of pictures they want to cycle through.
+
+3) (#1 priority) NEEDS to be mobile friendly. We should probably address this sooner rather than later as it will become more difficult.
+
+4) Lightbox for gallery images when clicked 
+
+5) Probably don't need a socials tab, could put that information in the global footer.
+
+6) polling system for best dressed
+
+7) images in gallery are hardcoded, will eventually have to go to an automatic solution to load images. (lazy loading?)
