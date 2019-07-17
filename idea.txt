@@ -1,0 +1,7 @@
+IDEAS BITCH
+
+1) Create an input for the bracket for teams to add song/songs
+   to a playlist that plays during the tournament.
+
+2) Add a dropdown to the navbar for "Gallery" so people can
+   select which year of pictures they want to cycle through.

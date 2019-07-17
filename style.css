@@ -4,7 +4,7 @@ body {
   https://coolors.co/141115-96adc8-e71d36-eeb4b3-fffffc possible color scheme
   Added google fonts
   */
-  background-color: rgb(235, 241, 250);
+  background-color: rgb(234, 0, 12);
   background-repeat: no-repeat;
   background-position: 0% 0%;
   background-size: 100% 100%;
@@ -28,7 +28,7 @@ body {
 }
 
 .nav {
-  background-color: rgb(2, 96, 189);
+  background-color: rgba(2, 96, 189);
   text-align: center;
   margin-top: -1px;
   border: 1px solid white;
@@ -55,6 +55,35 @@ li a:hover {
 }
 
 /*
+added countdown timer
+*/
+
+.jumbotron-home h3 {
+  font-size: 45px;
+  color: white;
+}
+
+.jumbotron-home li {
+  text-align: center;
+  color: white;
+  background-color: rgb(2, 96, 189);
+  font-size: 45px;
+  display: inline-block;
+  border: 1px solid white;
+  padding: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.jumbotron-home ul {
+  padding-top: 20px;
+}
+
+.timeRef {
+  font-style: italic;
+}
+
+/*
 added flex grid for gallery images
 */
 .pics img {
@@ -75,10 +104,15 @@ added flex grid for gallery images
 /*
 added HTML Bracket
 */
+.jumbotron h1 {
+  color: white;
+}
+
 #tournament   {
   display:flex;
   flex-direction:row;
   /**/
+  color: white;
   font-family:sans-serif;
   font-size:small;
   padding:10px;
@@ -126,13 +160,13 @@ li.game {
     margin-right:5px;
   }
 
-  li.game-top { border-bottom:1px solid #aaa; }
+  li.game-top { border-bottom:1px solid white; }
 
   li.game-spacer  {
-    border-right:1px solid #aaa;
+    border-right:1px solid white;
     min-height:40px;
   }
 
   li.game-bottom  {
-    border-top:1px solid #aaa;
+    border-top:1px solid white;
   }
