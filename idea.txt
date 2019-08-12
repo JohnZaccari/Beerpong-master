@@ -15,3 +15,13 @@ IDEAS BITCH
 6) polling system for best dressed
 
 7) images in gallery are hardcoded, will eventually have to go to an automatic solution to load images. (lazy loading?)
+
+8) beer pong image always link to home page
+
+9) add "Bod" and "about" to nav bar
+
+10)real time bracket update when a team signs up (use array check to see if spot already assigned);
+
+11) global footer location, screenshot
+
+12) WSOBP style footer 
